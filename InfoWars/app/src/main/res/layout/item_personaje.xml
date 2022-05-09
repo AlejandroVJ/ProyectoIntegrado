@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="225dp">
+
+
+    <ImageView
+        android:id="@+id/imagenPersonaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/prueba" />
+
+    <View
+        android:id="@+id/imgPrueba"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/labelNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_above="@+id/labelMundo"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        tools:text="Personaje 1" />
+
+    <TextView
+        android:id="@+id/labelMundo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        tools:text="Viajero Espacial" />
+
+
+</RelativeLayout>
+
