@@ -6,7 +6,7 @@
 
 
     <ImageView
-        android:id="@+id/imagenPersonaje"
+        android:id="@+id/imgPersonaje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
@@ -22,14 +22,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:layout_above="@+id/labelMundo"
+        android:layout_above="@+id/labelFrase"
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="@android:color/white"
         tools:text="Personaje 1" />
 
     <TextView
-        android:id="@+id/labelMundo"
+        android:id="@+id/labelFrase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

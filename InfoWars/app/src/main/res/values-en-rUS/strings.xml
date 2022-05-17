@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InfoWars</string>
+    <string name="label_error">Oops! There has been a disturbance in the force</string>
+    <string name="label_retry">Retry</string>
+</resources>

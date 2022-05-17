@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.45">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="33dp">
+
+                <ImageView
+                    android:id="@+id/imgPersonajeView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/prueba"
+                    android:scaleType="centerCrop"/>
+
+                <View
+                    android:id="@+id/imgView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/ImperioGalac"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/labelNombre"
+                    tools:text="Darth Vader"
+                    android:layout_above="@+id/labelFrase"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/white"/>
+
+
+                <TextView
+                    android:id="@+id/labelFrase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="italic"
+                    tools:text="'Yo soy tu padre'"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnFaccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fabSize="normal"
+                android:layout_gravity="bottom|end"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="center"
+                app:maxImageSize="40dp"
+                android:src="@drawable/ic_imperio"
+                app:tint="#E6E6E6"
+                android:clickable="true"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="0.55"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personaje"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/labelNave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:drawableLeft="@drawable/ic_nave"
+                android:drawableStart="@drawable/ic_nave"
+                android:drawablePadding="9dp"
+                android:gravity="center_vertical"
+                tools:text="TIE Avanzado x1 de Darth Vader" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelPlaneta"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_planeta"
+                android:drawableStart="@drawable/ic_planeta"
+                android:drawablePadding="9dp"
+                tools:text="Tatoonine"/>
+
+
+            <TextView
+                android:id="@+id/labelLado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_lado"
+                android:drawableStart="@drawable/ic_lado"
+                android:drawablePadding="9dp"
+                tools:text="Lado oscuro" />
+
+            <TextView
+                android:id="@+id/labelArmas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_espada"
+                android:drawableStart="@drawable/ic_espada"
+                android:drawablePadding="9dp"
+                android:layout_marginTop="10dp"
+                tools:text="Sable de luz(carmesí) y poder de la fuerza" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

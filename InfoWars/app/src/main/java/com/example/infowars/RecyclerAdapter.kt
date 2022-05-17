@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_personaje.view.*
 
 class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.viewHolder> {
@@ -51,11 +52,18 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.viewHolder> {
             set(value) {
                 value?.let {
                     itemView.labelNombre.text = value.nombre
-                    itemView.labelMundo.text = value.planeta
+                    itemView.labelFrase.text = value.fIconica
                     val colorFaccion = Faccion.getColoresFaccion(value.faccion.nombre)
                     itemView.imgPrueba.background = ContextCompat.getDrawable(itemView.context, colorFaccion)
-                    field = value
+
+                    Picasso.get()
+                        .load(value.img)
+                        .placeholder(R.drawable.prueba)
+                        .into(itemView.imgPersonaje)
+
+
                 }
+                field = value
             }
 
         init {

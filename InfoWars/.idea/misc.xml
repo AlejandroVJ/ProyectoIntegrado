@@ -5,13 +5,17 @@
       <map>
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout-sw320dp-land/fragment_detalles.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout-sw420dp-land/fragment_detalles.xml" value="0.1" />
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout-sw600dp/activity_personajes.xml" value="0.22" />
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/activity_detalles.xml" value="0.18478260869565216" />
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/activity_personajes.xml" value="0.25" />
-        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/fragment_detalles.xml" value="0.25" />
-        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/fragment_personajes.xml" value="0.33" />
-        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/item_personaje.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/data_personajes.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/dialog_faccion.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/fragment_detalles.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/fragment_personajes.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/item_personaje.xml" value="0.33" />
       </map>
     </option>
   </component>
