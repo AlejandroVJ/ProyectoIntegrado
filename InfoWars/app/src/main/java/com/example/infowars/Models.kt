@@ -26,7 +26,7 @@ data class Personaje(
  * Clase de Datos de facciones
  * Son clases que pueden estar dentro de otras clases en este caso de facciones
  * */
-data class Faccion(var nombre: String, var era: String, //var anho: String,
+data class Faccion(var nombre: String, var era: String,
                    var img: String
 ): Serializable {
     companion object {

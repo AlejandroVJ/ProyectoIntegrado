@@ -64,7 +64,6 @@ object RepositorioPersonajes {
         return Faccion(
             jsonFaccion.getString("nombre"),
             jsonFaccion.getString("era"),
-            //jsonFaccion.getString("año"),
             jsonFaccion.getString("img")
         )
     }
