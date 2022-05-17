@@ -28,7 +28,6 @@ class FaccionDialog: DialogFragment() {
         with(faccion) {
             dialogView.labelNombre.text = nombre
             dialogView.labelEra.text = era
-            //dialogView.labelAnho.text = anho
             dialogView.layoutDialog.background =
                 context?.let { ContextCompat.getDrawable(it, Faccion.getColoresFaccionOpaco(nombre)) }
         }
