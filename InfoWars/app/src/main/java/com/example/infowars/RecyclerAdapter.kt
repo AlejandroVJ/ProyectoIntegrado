@@ -1,16 +1,15 @@
 package com.example.infowars
 
 import android.os.Build
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_personaje.view.*
 
-class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.viewHolder> {
+
+class RecyclerAdapter: RecyclerView.Adapter<RecyclerAdapter.viewHolder> {
 
     constructor() : super() {
         itemClickListener = null
@@ -20,7 +19,7 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.viewHolder> {
         this.itemClickListener = itemClickListener
     }
 
-    private val items: MutableList<Personaje> = mutableListOf()
+    private var items: MutableList<Personaje> = mutableListOf()
 
     private val itemClickListener: ((Personaje, Int) -> Unit)?
 
@@ -43,6 +42,10 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.viewHolder> {
     fun setPersonajes(personaje: MutableList<Personaje>) {
         items.clear()
         items.addAll(personaje)
+        notifyDataSetChanged()
+    }
+    fun filterList(personaje: MutableList<Personaje>){
+        this.items = personaje
         notifyDataSetChanged()
     }
 
@@ -73,7 +76,6 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.viewHolder> {
                 }
             }
         }
-
 
     }
 }

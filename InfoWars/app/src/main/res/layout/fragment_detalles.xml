@@ -83,12 +83,15 @@
         android:layout_weight="0.55"
         android:orientation="vertical"
         android:padding="16dp">
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Personaje"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/labelNave"
@@ -99,7 +102,9 @@
         android:drawableStart="@drawable/ic_nave"
         android:drawablePadding="9dp"
         android:gravity="center_vertical"
-        tools:text="TIE Avanzado x1 de Darth Vader" />
+        tools:text="TIE Avanzado x1 de Darth Vader"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -109,7 +114,9 @@
             android:drawableLeft="@drawable/ic_planeta"
             android:drawableStart="@drawable/ic_planeta"
             android:drawablePadding="9dp"
-            tools:text="Tatoonine"/>
+            tools:text="Tatoonine"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
 
     <TextView
@@ -120,7 +127,9 @@
         android:drawableLeft="@drawable/ic_lado"
         android:drawableStart="@drawable/ic_lado"
         android:drawablePadding="9dp"
-        tools:text="Lado oscuro" />
+        tools:text="Lado oscuro"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/labelArmas"
@@ -130,7 +139,9 @@
         android:drawableStart="@drawable/ic_espada"
         android:drawablePadding="9dp"
         android:layout_marginTop="10dp"
-        tools:text="Sable de luz(carmesí) y poder de la fuerza"/>
+        tools:text="Sable de luz(carmesí) y poder de la fuerza"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/labelRaza"
@@ -140,7 +151,9 @@
             android:drawableStart="@drawable/ic_raza"
             android:drawablePadding="9dp"
             android:layout_marginTop="10dp"
-            tools:text="Humano" />
+            tools:text="Humano"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/labelApariciones"
@@ -150,7 +163,9 @@
             android:drawableStart="@drawable/ic_cine"
             android:drawablePadding="9dp"
             android:layout_marginTop="10dp"
-            tools:text="Humano" />
+            tools:text="Humano"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

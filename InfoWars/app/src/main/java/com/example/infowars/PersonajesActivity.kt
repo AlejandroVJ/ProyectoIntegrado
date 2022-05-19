@@ -1,10 +1,12 @@
 package com.example.infowars
 
 
+
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_personajes.*
+
 
 
 class PersonajesActivity : AppCompatActivity(), FragmentPersonajes.onItemClickListener {
@@ -20,6 +22,7 @@ class PersonajesActivity : AppCompatActivity(), FragmentPersonajes.onItemClickLi
             val fragment = FragmentPersonajes()
             this.supportFragmentManager.beginTransaction().add(R.id.lista_container, fragmento)
                 .commit()
+
         }
     }
 
@@ -29,6 +32,8 @@ class PersonajesActivity : AppCompatActivity(), FragmentPersonajes.onItemClickLi
         else
             iniciarDetallesActivity(personaje.id)
     }
+
+
 
     private fun mostarFramgmentDetalles(personajeId: String) {
         val detallesFragment = DetallesFragment.nuevaInstancia(personajeId)
@@ -46,4 +51,5 @@ class PersonajesActivity : AppCompatActivity(), FragmentPersonajes.onItemClickLi
         intent.putExtra("key_id", personajeId)
         startActivity(intent)
     }
+
 }

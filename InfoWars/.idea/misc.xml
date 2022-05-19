@@ -13,9 +13,11 @@
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/activity_personajes.xml" value="0.25" />
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/data_personajes.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/dialog_faccion.xml" value="0.1" />
-        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/fragment_detalles.xml" value="0.1" />
-        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/fragment_personajes.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/fragment_detalles.xml" value="0.18" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/fragment_personajes.xml" value="0.18" />
         <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/layout/item_personaje.xml" value="0.33" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/menu/menu_buscador.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/InfoWars/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

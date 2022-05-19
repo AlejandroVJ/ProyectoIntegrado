@@ -4,11 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.activity_detalles.*
 import kotlinx.android.synthetic.main.fragment_detalles.*
 import kotlinx.android.synthetic.main.fragment_detalles.labelArmas
 import kotlinx.android.synthetic.main.fragment_detalles.labelFrase
@@ -16,8 +14,6 @@ import kotlinx.android.synthetic.main.fragment_detalles.labelLado
 import kotlinx.android.synthetic.main.fragment_detalles.labelNave
 import kotlinx.android.synthetic.main.fragment_detalles.labelNombre
 import kotlinx.android.synthetic.main.fragment_detalles.labelPlaneta
-import kotlinx.android.synthetic.main.item_personaje.*
-import kotlinx.android.synthetic.main.item_personaje.view.*
 
 class DetallesFragment : Fragment()  {
 
@@ -50,13 +46,14 @@ class DetallesFragment : Fragment()  {
         personaje?.let {
             with(personaje) {
                 labelNombre.text = nombre
-                labelPlaneta.text = planeta
+                labelPlaneta.text = planeta.toString()
                 labelFrase.text = fIconica
                 labelNave.text = nave
                 labelLado.text = lado
                 labelArmas.text = armas
                 labelRaza.text = raza
                 labelApariciones.text = apariciones
+
                 val personajesColor = Faccion.getColoresFaccion(personaje.faccion.nombre)
                 imgView2.background =
                     context?.let { it1 -> ContextCompat.getDrawable(it1, personajesColor) }

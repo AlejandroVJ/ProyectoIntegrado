@@ -68,7 +68,6 @@ object RepositorioPersonajes {
         )
     }
 
-
     fun findPersById(id: String?): Personaje? {
         return personajes.find { personaje -> personaje.id == id }
     }

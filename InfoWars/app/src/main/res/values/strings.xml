@@ -2,5 +2,6 @@
     <string name="app_name">InfoWars</string>
     <string name="label_error" >Ups! Ha habido una pertubación en la fuerza</string>
     <string name="label_retry" >"Reintentar "</string>
-    <string name="label_aceptar">Aceptar</string>
+    <string name="label_aceptar">Cerrar</string>
+    <string name="app_SerachView" translatable="false">Buscar</string>
 </resources>

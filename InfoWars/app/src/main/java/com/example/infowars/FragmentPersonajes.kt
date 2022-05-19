@@ -44,6 +44,7 @@ class FragmentPersonajes : Fragment() {
 
     }
 
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -51,6 +52,7 @@ class FragmentPersonajes : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_personajes, container, false)
     }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
